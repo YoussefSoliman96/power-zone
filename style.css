@@ -28,14 +28,21 @@ a:hover {
 
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 7vh;
+  height: 5.5vh;
   background-color: rgb(248, 248, 255);
-  gap: 1rem;
+  gap: 1.3rem;
   margin-right: 1rem;
   margin-left: 1rem;
-  font-size: larger;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-container {
@@ -91,4 +98,85 @@ a:hover {
 
 .slider-nav a:hover {
   opacity: 1;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.row {
+  text-align: center;
+}
+
+.establishments-box {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.establishments-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  transition: all 0.5s ease;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.establishments-container:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+  transition: all 0.4s ease;
+}
+
+.establishments {
+  text-align: center;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 70px;
+  text-align: center;
+}
+
+.sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.offers-container {
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
