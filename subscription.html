@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav-container sticky">
+      <ul class="nav-bar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/subscription.html">Subscription</a></li>
+        <li><a href="/services.html">Services</a></li>
+      </ul>
+      <ul class="nav-bar">
+        <li><a href="/register.html">Register</a></li>
+        <li><a href="/login.html">Login</a></li>
+      </ul>
+    </div>
+    <section class="container">
+      <div class="section-title">
+        <h1>Choose Your Membership Package</h1>
+      </div>
+      <div class="subscription-packages">
+        <div class="package basic">
+          <h2>Basic Membership</h2>
+          <ul>
+            <li>Access to gym facilities</li>
+            <li>Unlimited group fitness classes</li>
+            <li>Monthly fitness assessments</li>
+            <li>Discounts on additional services</li>
+          </ul>
+          <p class="price">800 EGP per month</p>
+        </div>
+        <div class="package premium">
+          <h2>Premium Membership</h2>
+          <ul>
+            <li>All features in Basic Membership</li>
+            <li>Access to premium amenities</li>
+            <li>Priority booking for classes</li>
+            <li>Complimentary workout plans</li>
+            <li>Enhanced discounts on services</li>
+          </ul>
+          <p class="price">1000 EGP per month</p>
+        </div>
+        <div class="package vip">
+          <h2>VIP Membership</h2>
+          <ul>
+            <li>All features in Premium Membership</li>
+            <li>Unlimited personal training sessions</li>
+            <li>Customized meal plans</li>
+            <li>Priority scheduling for sessions</li>
+            <li>Special perks and invitations</li>
+          </ul>
+          <p class="price">1200 EGP per month</p>
+        </div>
+      </div>
+      <div class="subscription-form">
+        <h2>Subscribe Now</h2>
+        <form action="/index.html">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <select required>
+            <option value="">Select Package</option>
+            <option value="Basic">Basic Membership</option>
+            <option value="Premium">Premium Membership</option>
+            <option value="VIP">VIP Membership</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
