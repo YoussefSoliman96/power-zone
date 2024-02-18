@@ -180,3 +180,26 @@ a:hover {
   margin-left: 15rem;
   margin-right: 15rem;
 }
+
+.about-container {
+  text-align: center;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding: 5rem;
+}
+
+.about-header {
+  text-align: center;
+  color: rgb(85, 85, 85);
+  margin: 1rem;
+}
+
+.about-photo {
+  border-radius: 20%;
+  width: 40rem;
+}
+
+.about-box {
+  padding: 4rem;
+  margin: 1rem;
+}
