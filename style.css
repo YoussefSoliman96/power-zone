@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: grey !important;
   text-decoration: underline !important;
   text-underline-offset: 2rem !important;
   text-decoration-color: rgb(181, 181, 181) !important;
