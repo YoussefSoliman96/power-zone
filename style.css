@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 
 ul {
@@ -14,16 +14,16 @@ ul {
 }
 
 a {
-  color: #483d8b;
-  text-decoration: none;
+  color: #483d8b !important;
+  text-decoration: none !important;
   text-decoration-color: white;
 }
 
 a:hover {
   color: grey;
-  text-decoration: underline;
-  text-underline-offset: 2rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration: underline !important;
+  text-underline-offset: 2rem !important;
+  text-decoration-color: rgb(181, 181, 181) !important;
 }
 
 .nav-bar {
@@ -242,4 +242,8 @@ a:hover {
   text-align: center;
   font-weight: 200;
   font-size: larger;
+}
+
+.feedback-container {
+  margin-top: 7rem;
 }
