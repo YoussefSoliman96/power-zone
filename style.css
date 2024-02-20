@@ -446,15 +446,13 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .container {
-    width: 90%;
-  }
-
-  .nav-bar {
-    flex-direction: column;
+    width: 70%;
+    margin: auto;
   }
 
   .nav-bar li {
     margin: 10px 0;
+    font-size: large;
   }
 
   .slider-nav {
@@ -463,6 +461,25 @@ a:hover {
 
   .about-box {
     width: 90%;
+  }
+  .about-container {
+    margin: auto;
+  }
+
+  .about-photo {
+    width: 70%;
+  }
+
+  .subscription-packages {
+    gap: 10px;
+  }
+
+  .login-form {
+    margin-top: 30%;
+  }
+
+  .registration-form {
+    margin-top: 30%;
   }
 }
 
@@ -479,5 +496,35 @@ a:hover {
 
   .nav-bar li {
     margin: 10px 0;
+    font-size: small;
+  }
+
+  .subscription-packages {
+    flex-direction: column;
+  }
+
+  .main-container {
+    width: 700px;
+  }
+
+  .container {
+    width: 350px;
+  }
+
+  .about-container {
+    margin: auto;
+    width: 80%;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .login-form {
+    margin-top: 30%;
+  }
+
+  .registration-form {
+    margin-top: 30%;
   }
 }
